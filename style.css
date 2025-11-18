@@ -284,8 +284,9 @@ footer {
     font-size: 2.5rem;
     color: var(--primaryColor);
 }
-.navBarBoxthree i:hover{
-     color: #1ebe5d;
+
+.navBarBoxthree i:hover {
+    color: #1ebe5d;
 }
 
 /* .hero {
@@ -360,6 +361,8 @@ footer {
     align-items: start;
     padding: 2rem;
     background: linear-gradient(135deg, #11998e, #38ef7d);
+    border-radius: 2rem;
+    margin-left: 2rem;
 
 
 }
@@ -378,7 +381,7 @@ footer {
 .bg-info p {
     font-family: var(--ffSecondary);
     font-size: 1.7rem;
-    color:var(--lightColor);
+    color: var(--lightColor);
     font-weight: 400;
     margin: 2rem 0rem;
 }
@@ -396,6 +399,8 @@ footer {
     /* background: linear-gradient(135deg, #a8e063, #56ab2f); */
     background-color: rgb(187, 110, 110);
     padding: 2rem;
+    border-radius: 2rem;
+    margin-left: 2rem;
 }
 
 .bg-infoone h1 {
@@ -426,8 +431,9 @@ footer {
     align-items: start;
     background-color: #cfcccc;
     /* border-radius: 5px; */
-padding: 2rem;
-
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-left: 2rem;
 }
 
 .bg-infotwo h1 {
@@ -576,8 +582,10 @@ padding: 2rem;
 }
 
 .productsCardHeader figure img {
-    width: 25rem;
-    height: 20rem;
+    width: 100%;
+    /* height: 20rem; */
+    aspect-ratio: 4/3;
+    object-fit: cover ;
     border-radius: 15px;
 }
 
@@ -906,7 +914,8 @@ padding: 2rem;
     outline: none;
     color: var(--tertiaryColor);
 }
-.contactFormContainer input:focus{
+
+.contactFormContainer input:focus {
     outline: 2px solid rgb(150, 255, 136);
 }
 
@@ -1126,23 +1135,28 @@ padding: 2rem;
     .bg-info {
         top: 0;
     }
-    .bg-info h1{
+
+    .bg-info h1 {
         font-size: 2.5rem;
     }
- 
+
     .bg-infoone {
         top: 19rem;
     }
-    .bg-infoone h1{
+
+    .bg-infoone h1 {
         font-size: 2.5rem;
     }
-    .bg-infotwo{
+
+    .bg-infotwo {
         top: 8rem;
-   
+
     }
-    .bg-infotwo h1{
+
+    .bg-infotwo h1 {
         font-size: 2.5rem;
     }
+
     .productsBlock {
         margin: 3rem;
     }
@@ -1195,7 +1209,7 @@ padding: 2rem;
         padding: 2rem 0rem 0rem;
     }
 
-   
+
 
     .copyrightBox {
         display: flex;
@@ -1292,21 +1306,25 @@ padding: 2rem;
     .bg-info {
         top: 0;
     }
-    .bg-info h1{
+
+    .bg-info h1 {
         font-size: 2.5rem;
     }
- 
+
     .bg-infoone {
         top: 19rem;
     }
-    .bg-infoone h1{
+
+    .bg-infoone h1 {
         font-size: 2.5rem;
     }
-    .bg-infotwo{
+
+    .bg-infotwo {
         top: 8rem;
 
     }
-    .bg-infotwo h1{
+
+    .bg-infotwo h1 {
         font-size: 2.5rem;
     }
 
