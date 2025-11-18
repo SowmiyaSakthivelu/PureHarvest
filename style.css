@@ -417,7 +417,7 @@ footer {
 .bg-infotwo {
     position: absolute;
     top: 10rem;
-    left: 2rem;
+    left: 0;
     width: 40%;
     /* height: 100%; */
     display: flex;
@@ -1124,33 +1124,25 @@ padding: 2rem;
     }
 
     .bg-info {
-        margin-left: 2rem;
+        top: 0;
     }
-
-    .bg-info h1 {
-        font-size: 6rem;
-        font-weight: 600;
+    .bg-info h1{
+        font-size: 2.5rem;
     }
-
-    .bg-info p {
-        font-size: 1.5rem;
-        font-weight: 400;
-
-    }
-
+ 
     .bg-infoone {
-        margin-left: 2rem;
+        top: 19rem;
     }
-
-    .bg-infoone h1 {
-        font-size: 6rem;
-        font-weight: 600;
+    .bg-infoone h1{
+        font-size: 2.5rem;
     }
-
-    .bg-infoone p {
-        font-size: 1.5rem;
+    .bg-infotwo{
+        top: 8rem;
+   
     }
-
+    .bg-infotwo h1{
+        font-size: 2.5rem;
+    }
     .productsBlock {
         margin: 3rem;
     }
@@ -1203,9 +1195,7 @@ padding: 2rem;
         padding: 2rem 0rem 0rem;
     }
 
-    .certificationBoxone h2 {
-        font-size: 3.5rem;
-    }
+   
 
     .copyrightBox {
         display: flex;
@@ -1300,31 +1290,24 @@ padding: 2rem;
     }
 
     .bg-info {
-        margin-left: 2rem;
+        top: 0;
     }
-
-    .bg-info h1 {
-        font-size: 6rem;
-        font-weight: 600;
+    .bg-info h1{
+        font-size: 2.5rem;
     }
-
-    .bg-info p {
-        font-size: 1.5rem;
-        font-weight: 400;
-
-    }
-
+ 
     .bg-infoone {
-        margin-left: 2rem;
+        top: 19rem;
     }
-
-    .bg-infoone h1 {
-        font-size: 6rem;
-        font-weight: 600;
+    .bg-infoone h1{
+        font-size: 2.5rem;
     }
+    .bg-infotwo{
+        top: 8rem;
 
-    .bg-infoone p {
-        font-size: 1.5rem;
+    }
+    .bg-infotwo h1{
+        font-size: 2.5rem;
     }
 
 
