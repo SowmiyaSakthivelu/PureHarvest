@@ -14,7 +14,7 @@
     --lightColor: #ffff;
     --regularFont: 1.6rem;
     --headingFont: 2.5rem;
-    --ffPrimary: "Barlow Condensed", sans-serif;
+    --ffPrimary: 'Co Headline', sans-serif;
     --ffSecondary: "Nunito Sans", sans-serif;
     --backgroundcolor: #d6fcdc;
     --bg-2: #d2e0d4;
@@ -328,6 +328,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background: linear-gradient(135deg, #0070f3 0%, #7928ca 100%); */
 }
 
 .wrapper-inside {
@@ -349,23 +350,25 @@ footer {
 
 .bg-info {
     position: absolute;
-    top: 15rem;
+    top: 20rem;
     left: 0;
     width: 40%;
     /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: #d2e0d4;
+    align-items: start;
+    padding: 2rem;
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+
 
 }
 
 .bg-info h1 {
     font-family: var(--ffPrimary);
-    font-size: 8rem;
+    font-size: 3rem;
     font-weight: 800;
-    color: var(--primaryColor);
+    color: var(--lightColor);
     line-height: 1;
     /* background-color: #000000 */
 }
@@ -374,28 +377,30 @@ footer {
 
 .bg-info p {
     font-family: var(--ffSecondary);
-    font-size: 1.8rem;
-    color: var(--darkColor);
+    font-size: 1.7rem;
+    color:var(--lightColor);
     font-weight: 400;
     margin: 2rem 0rem;
 }
 
 .bg-infoone {
     position: absolute;
-    top: 0;
+    top: 30rem;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 40%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
+    align-items: start;
+    /* background: linear-gradient(135deg, #a8e063, #56ab2f); */
+    background-color: rgb(187, 110, 110);
+    padding: 2rem;
 }
 
 .bg-infoone h1 {
     font-family: var(--ffPrimary);
-    font-size: 8rem;
+    font-size: 3rem;
     font-weight: 800;
     color: var(--lightColor);
     line-height: 1;
@@ -403,7 +408,7 @@ footer {
 
 .bg-infoone p {
     font-family: var(--ffSecondary);
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: var(--lightColor);
     font-weight: 400;
     margin: 2rem 0rem;
@@ -411,20 +416,23 @@ footer {
 
 .bg-infotwo {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 10rem;
+    left: 2rem;
+    width: 40%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    background-color: #cfcccc;
+    /* border-radius: 5px; */
+padding: 2rem;
 
 }
 
 .bg-infotwo h1 {
     font-family: var(--ffPrimary);
-    font-size: 8rem;
+    font-size: 3rem;
     font-weight: 800;
     color: var(--darkColor);
     line-height: 1;
@@ -432,7 +440,7 @@ footer {
 
 .bg-infotwo p {
     font-family: var(--ffSecondary);
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: var(--darkColor);
     font-weight: 400;
     margin: 2rem 0rem;
@@ -493,7 +501,7 @@ footer {
 
 .aboutUsBoxtwo h2 {
     font-family: var(--ffPrimary);
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: var(--primaryColor);
     margin-bottom: 2rem;
@@ -514,7 +522,7 @@ footer {
 
 .productsBoxone h2 {
     font-family: var(--ffPrimary);
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: var(--primaryColor);
 }
@@ -584,7 +592,7 @@ footer {
 .productsCardMain h3 {
     font-family: var(--ffPrimary);
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--primaryColor);
 }
 
@@ -625,7 +633,7 @@ footer {
 
 .bestsellersBoxone h2 {
     font-family: var(--ffPrimary);
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: var(--primaryColor);
 }
@@ -681,7 +689,7 @@ footer {
 .bestsellersCardMain h3 {
     font-family: var(--ffPrimary);
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--primaryColor);
 }
 
@@ -692,7 +700,7 @@ footer {
 
 .teamBoxone h2 {
     font-family: var(--ffPrimary);
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: var(--primaryColor);
 }
@@ -727,7 +735,7 @@ footer {
 .teamCardMain h3 {
     font-family: var(--ffPrimary);
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--primaryColor);
 }
 
@@ -740,7 +748,7 @@ footer {
 
 .whyUsBoxone h2 {
     font-family: var(--ffPrimary);
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: var(--primaryColor);
 }
@@ -772,7 +780,7 @@ footer {
 
 .certificationBoxone h2 {
     font-family: var(--ffPrimary);
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: var(--primaryColor);
 }
@@ -789,7 +797,7 @@ footer {
 
 .testimonialsBoxone h2 {
     font-family: var(--ffPrimary);
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 700;
     color: var(--primaryColor);
 }
@@ -925,7 +933,7 @@ footer {
 
 .philosophyBox h2 {
     font-family: var(--ffPrimary);
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
     color: var(--primaryColor);
 }
@@ -953,7 +961,7 @@ footer {
 
 .researchBox h2 {
     font-family: var(--ffPrimary);
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
     color: var(--primaryColor);
 }
